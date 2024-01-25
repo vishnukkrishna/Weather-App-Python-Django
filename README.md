@@ -39,21 +39,13 @@ Before you begin, ensure you have the following installed:
    pip install -r requirements.txt
    ```
 
-4. **Set Up Environment Variables**
-
-   Create a `.env` file in the project root and add the necessary environment variables, such as API keys for the weather service.
-
-   ```
-   WEATHER_API_KEY='your_api_key_here'
-   ```
-
-5. **Run Database Migrations**
+4. **Run Database Migrations**
 
    ```bash
    python manage.py migrate
    ```
 
-6. **Start the Development Server**
+5. **Start the Development Server**
 
    ```bash
    python manage.py runserver
